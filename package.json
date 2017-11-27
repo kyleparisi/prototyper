@@ -1,0 +1,15 @@
+{
+  "name": "fbpr3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "electron-starter.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "jest"
+  },
+  "author": "Kyle Parisi (http://blog.kyleparisi.com)",
+  "license": "ISC",
+  "dependencies": {
+    "material-components-web": "^0.25.0"
+  }
+}
