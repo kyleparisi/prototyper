@@ -97,8 +97,10 @@
   </script>
 
   <script>
-    require("../src/index");
-
+    import React from 'react';
+    import ReactDOM from 'react-dom';
+    import App, {square} from "../src/index";
+    ReactDOM.render(<App />, document.getElementById('root'));
   </script>
 </body>
 </html>
